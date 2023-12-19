@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="container">
       <header className="header">
-        <h1 className="page-title">Current Weather</h1>
+        <h1 className="page-title">My Current Weather</h1>
         <WeatherForm onSubmit={handleSubmit} />
         {error && <p className="error">{errorMsg.message}</p>}
       </header>
